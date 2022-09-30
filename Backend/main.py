@@ -7,6 +7,7 @@ app.config.from_object(__name__)
 
 CORS(app, resources={r"/*":{'origins':"*"}})
 #CORS(app, resources={r'/*':{'origins':'http://localhost:8080',"allow_headers":"Access-Control-Allow-Origin"}})
+
 @app.route('/',methods=['GET'])
 def greetings():
     return("Hello, World!")
