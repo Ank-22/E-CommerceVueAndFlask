@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s ease;
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    max-width: 120rem;
+    font-style: normal;
+    cursor:default;
+}
+
+body{
+    background-color: #eee;
+}
+
+li{
+}
+
+a{
+    text-decoration: none;
+}
+
+.social_avez_navbar{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.social_avez_navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_avez_navbar ul li{
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.social_avez_navbar img{
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+}
+
+.social_avez_profile{
+    width: 50px;
+    height: 50px;
+}
+
+.social_avez_profile img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.create_post_user_container{
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #cac7c7;
+    box-shadow: 0px 19px 38px 0px rgba(0,0,0,0.3);
+    margin: 0;
+    height: 34rem;
+}
+
+.create_post{
+    background: #000;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+}
+
+.create_post_social_card{
+    margin: 0 1rem 1rem 0rem; 
+    padding-bottom: 1rem; 
+    
+}
+
+
+
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    max-width: 73rem;
+}
+
+
+.avez_all_social_post_main_container{
+    width: 500px;
+    height: 700px;   
+    margin-bottom: 5rem;
+}
+
+
+
+.single_social_post_img_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.single_social_img{
+    width: 50px;
+    height: 50px;
+    user-select: none;
+}
+
+.single_social_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    user-select: none;
+}
+
+.single_social_post{
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 19px 38px 0px rgba(0,0,0,0.3);
+    border: 1px solid #cac7c7;
+    margin-bottom: 2rem;
+
+}
+
+.single_social_post_header{
+    padding: 10px;
+    background: #fff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: 1px solid #cac7c7;
+}
+
+.single_social_post_footer{
+    
+    border-top: 1px solid #cac7c7;
+}
+
+.single_social_post_img_header{
+    margin-left:0px ;
+}
+
+.single_social_delete{
+    margin-right: 0px;
+}
+
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.single_social_post_header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.single_social_post_between{
+    width: 497px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f4c3;
+}
+
+.single_social_post_between img{
+    width: 100%;
+    max-height: 100%;
+}
+
+.single_social_post_footer{
+    padding: 10px;
+}
+
+.social_footer_actions ul{
+    display: flex;
+    margin-left: -1rem;
+}
+
+.social_footer_likes{
+    padding-left: 10px;
+    font-size: 1.5rem;
+}
+
+.single_social_name{
+    margin-left:5px;
+}
+
+.social_footer_description{
+    padding: 10px;
+}
+
+
+.desc{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+.social_footer_timeStamp{
+    padding-left: 10px;
+    font-size: 0.7rem;
+    color: #151515;
+}
+
+.bx{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.fa{
+    cursor: pointer;
+}
+
+
+textarea{
+    display: block;
+    width: 21rem;
+    padding: 10px;
+    margin-bottom: 1rem;
+    resize: none;
+}
+
+input{
+    display: block;
+    width: 21rem;
+    height: 2.4rem;
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+
+.button{
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+.profile_social_img{
+    width: 150px;
+    height: 150px;
+}
+
+.profile_social_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.profile_image_social_avez{
+    text-align: center;
+    width: 500px;
+    user-select: none;
+
+}
+
+.profile_social_about h2{
+    margin-top: 1rem;
+}
+.profile_social_about h3{
+    margin-top: 1rem;
+}
+.profile_social_about p{
+    margin-top: 0.6rem;
+}
+
+/* .overlay_social_post{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.555);
+} */
+
+.social_profile_post_container{
+    margin-top: 3rem;
+}
+
+.social_profile_post_cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
+
+.social_profile_post_card{
+    width: 250px;
+    height: 250px;
+    margin: 1rem;
+    user-select: none;
+}
+
+.social_profile_post_card img{
+    width: 100%;
+    cursor: pointer;
+    height: 100%;
+}
+
+
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #cac7c7;
+}
+
+.modal_single_post{
+    width: 500px;
+    margin-top: 3rem;
+}
+
+input{
+    cursor: pointer;
+}

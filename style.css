@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s ease;
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    max-width: 120rem;
+    font-style: normal;
+    cursor: default;
+}
+
+
+/*Start Common for all CSS*/
+
+
+a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.bx {
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+.bx {
+    font-size: 1.9rem !important;
+}
+
+.Anchorbutton {
+    background-color: black;
+    color: #fff;
+    padding: 18px 50px;
+}
+
+/*End Common for all CSS*/
+
+
+/*Start of Header*/
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo {
+    width: 200px;
+    margin-left: -1px;
+    cursor: pointer;
+}
+
+header .logo img {
+    width: 100%;
+    height: 100%;
+}
+
+header .rightNav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    margin-right: 1rem;
+}
+
+/*End of Header*/
+
+
+
+
+/* sectionFirst Start */
+.sectionFirst {
+    width: 100%;
+    height: 100vh;
+}
+
+.sectionFirstContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20rem;
+
+}
+
+.sectionLeft {
+    padding: 3rem;
+    background-color: #5cc3ec58;
+}
+
+.sectionLeftContent {
+    padding: 4rem;
+}
+
+.sectionFirstContainer .sectionLeft h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 6.5rem;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+
+.sectionRight {
+    padding: 3rem;
+    background-color: #bfedff4d;
+}
+
+.sectionRightContent img {
+    filter: grayscale(5);
+    border-radius: 50%;
+    height: 35.3rem;
+}
+
+/* sectionFirst End */
+/* sectionSecond Start */
+.sectionSecond {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.sectionSecondContent h1 {
+    font-size: 5.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+
+.sectionSecondContent p {
+    width: 600px;
+    margin-bottom: 3rem;
+}
+
+.sectionSecondContent {
+    margin: 7.5rem 0;
+}
+
+/* sectionSecond End */
+/* sectionThird Start */
+.sectionThird {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 15rem;
+
+}
+
+.sectionThirdContent {
+    padding: 5rem 10rem;
+    background-color: #5cc3ec58;
+    border-radius: 15px;
+    margin: 7.5rem 0;
+}
+
+.sectionThirdContent h1 {
+    font-size: 5.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+
+.eCommerceProducts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.eCommerceProduct {
+    width: 331px;
+    background-color: #fff;
+    padding: 2rem 1rem 3rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow:
+        2.3px 2.3px 1.7px -37px rgba(0, 0, 0, 0.018),
+        5.4px 5.4px 3.5px -37px rgba(0, 0, 0, 0.026),
+        9.7px 9.7px 5.9px -37px rgba(0, 0, 0, 0.032),
+        16.1px 16.1px 9.5px -37px rgba(0, 0, 0, 0.038),
+        26.5px 26.5px 16.1px -37px rgba(0, 0, 0, 0.044),
+        46.2px 46.2px 30.9px -37px rgba(0, 0, 0, 0.052),
+        100px 100px 80px -37px rgba(0, 0, 0, 0.07);
+    margin: 1rem;
+}
+
+.eCommerceProduct:hover {
+    box-shadow: none;
+}
+
+.eCommerceProduct img {
+    width: 100%;
+    height: 100%;
+}
+
+.eCommerceProductDescription {
+    margin-bottom: 2rem;
+}
+
+.eCommerceProductDescription span h2 {
+    display: inline;
+    margin-right: 5px;
+}
+
+/* sectionThird End */
+/* sectionFourth Start */
+.sectionFourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+.sectionFourthContent h1 {
+    font-size: 5.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+
+.sectionFourthContent {
+    margin: 7.5rem 0;
+}
+
+.collectionProducts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.collectionProduct {
+    background-color: rgb(214, 214, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    margin: 1rem;
+
+}
+
+.collectionProduct:hover {
+    box-shadow:
+        2.3px 2.3px 1.7px -53px rgba(0, 0, 0, 0.018),
+        5.4px 5.4px 3.5px -53px rgba(0, 0, 0, 0.026),
+        9.7px 9.7px 5.9px -53px rgba(0, 0, 0, 0.032),
+        16.1px 16.1px 9.5px -53px rgba(0, 0, 0, 0.038),
+        26.5px 26.5px 16.1px -53px rgba(0, 0, 0, 0.044),
+        46.2px 46.2px 30.9px -53px rgba(0, 0, 0, 0.052),
+        100px 100px 80px -53px rgba(0, 0, 0, 0.07);
+}
+
+.collectionProductImage {
+    padding: 1rem;
+    width: 300px;
+}
+
+.collectionProductImage {
+    width: 100%;
+    height: 100%;
+}
+
+.collectionProductContent {
+    padding: 1rem 1rem 2rem 1rem;
+}
+
+.collectionProductText {
+    margin-bottom: 1rem;
+}
+
+.collectionProductsContainer {
+    margin: 4rem;
+}
+
+.btnEdit1 {
+    padding: 11px 27px;
+
+}
+
+/* sectionFourth End */
+/* sectionFifth Start */
+.sectionFifthContent h1 {
+    font-size: 5.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.sectionFifthContent {
+    margin: 7.5rem 0;
+}
+
+.exclusiveContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 192, 203, 0.751);
+    margin: 3rem;
+    padding: 3rem;
+    border-radius: 20px;
+}
+
+.exclusiveImage {
+    width: 60rem;
+    height: 25rem;
+    margin-right: 4rem;
+}
+
+.exclusiveImage img {
+    border-radius: 50%;
+    box-shadow:
+        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        100px 100px 80px rgba(0, 0, 0, 0.07);
+    width: 100%;
+    height: 100%;
+}
+
+.exclusiveDesc {
+    margin-bottom: 3rem;
+}
+
+/* sectionFifth End */
+
+/* sectionSixth Start  */
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+/* sectionSixth End */
+
+/*----------footer--------*/
+.scontainer {
+    max-width: 80%;
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+footer {
+    background: black;
+}
+
+footer .scontainer {
+    padding: 70px 50px;
+    color: white;
+}
+
+footer h3 {
+    margin: 30px 0 20px 0;
+}
+
+footer h1 {
+    color: white;
+    margin: 15px 0 10px 0;
+}
+
+footer li,
+footer p {
+    margin: 15px 0 10px 0;
+    color: grey;
+}
+
+footer input {
+    padding: 10px;
+    background: none;
+    border: none;
+}
+
+footer .input {
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+}
+
+footer .input i {
+    margin: 15px;
+}
+
+footer .social_media i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    color: grey;
+
+}
+
+.container {
+    margin-bottom: 3rem;
+}
+
+/*----------footer--------*/
+
+.display {
+    display: none;
+}
+
+
+
+@media (max-width:1340px) {
+    body {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .display {
+        display: flex;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25%;
+        text-align: center;
+        margin: 5rem;
+
+    }
+
+    header {
+        display: none;
+    }
+
+    section {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .none {
+        display: none;
+    }
+
+}
