@@ -13,8 +13,5 @@ When contributing to this repository, please first **ask to be assigned to an is
 
 1. Make sure your code is clean and nicely formatted
 2. Make sure your code is working fine
-3. Write a detailed description what you added or changed
-4. The pull request will be checked and merged if everything is fine
-5. :tada: Your PR will be labeled as `hacktoberfest-accepted`
 
 > Spammy pull requests will be closed without any further notice and **labeled as spam**.
